@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    background-color: #FFF4EB;
+}
+@font-face {
+    font-family: "Raleway";
+    src: url("../../css/Img/Font-Family/Raleway.ttf");
+}
+body{
+    margin:  0;
+    background-color: #FFF4EB;
+}
+a{
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    background-color: #99AAA5;
+    height: 70px;
+    display: flex;
+}
+header .LogoLink{
+    margin-left: 2.7%;
+    margin-top: 10px;
+}
+header .LogoLink .Logo{
+    width: 50px;
+    height: 50px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+main .RegistrationBlock{
+    width: 60%;
+    background-color: #99AAA5;
+    border-radius: 5%;
+}
+main .RegistrationBlock .InfoBlock{
+    display: block;
+}
